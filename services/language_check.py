@@ -6,8 +6,8 @@ from functools import lru_cache
 
 from scipy import stats
 
-from app.models.models import CorpusStats
-from app.services.viterby_tagger import ViterbiTagger
+from models.models import CorpusStats
+from services.viterby_tagger import ViterbiTagger
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)

@@ -1,9 +1,9 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from app.utils.corpus_repo import load_corpus
-from app.services.viterby_tagger import ViterbiTagger
-from app.services.evaluate import evaluate_model
-from app.services.language_check import speaking_ability_score
+from utils.corpus_repo import load_corpus
+from services.viterby_tagger import ViterbiTagger
+from services.evaluate import evaluate_model
+from services.language_check import speaking_ability_score
 import logging
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Dict
@@ -64,7 +64,7 @@ def health_check():
         }
     }
 
-from app.services.viterby_tagger import ViterbiTagger
+from services.viterby_tagger import ViterbiTagger
 
 @app.get("/accuracy")
 def accuracy():

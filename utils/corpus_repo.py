@@ -1,5 +1,5 @@
 from collections import defaultdict
-from app.models.models import CorpusStats
+from models.models import CorpusStats
 import json
 import logging
 from typing import Dict, Tuple, List
