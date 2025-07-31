@@ -42,6 +42,10 @@ class SpeakingInput(BaseModel):
 class ConversationInput(BaseModel):
     messages: List[Dict[str, str]]
 
+@app.get("/")
+async def home():
+    return {"status": "OK"}
+
 @app.post("/tag")
 def tag_sentence(input_data: SentenceInput):
     try:
