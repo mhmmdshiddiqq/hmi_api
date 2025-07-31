@@ -1,0 +1,73 @@
+[
+  [
+    ["My", "PRP$"],
+    ["name", "NN"],
+    ["is", "VBZ"],
+    ["John", "NNP"],
+    [".", "."]
+  ],
+  [
+    ["I", "PRP"],
+    ["'m", "VBP"],
+    ["from", "IN"],
+    ["Indonesia", "NNP"],
+    [".", "."]
+  ],
+  [
+    ["I", "PRP"],
+    ["am", "VBP"],
+    ["from", "IN"],
+    ["Indonesia", "NNP"],
+    [".", "."]
+  ],
+  [
+    ["I", "PRP"],
+    ["am", "VBP"],
+    ["22", "CD"],
+    ["years", "NNS"],
+    ["old", "JJ"],
+    [".", "."]
+  ],
+  [
+    ["I", "PRP"],
+    ["'m", "VBP"],
+    ["22", "CD"],
+    ["years", "NNS"],
+    ["old", "JJ"],
+    [".", "."]
+  ],
+  [
+    ["Yes", "UH"],
+    [",", ","],
+    ["I", "PRP"],
+    ["'m", "VBP"],
+    ["a", "DT"],
+    ["student", "NN"],
+    [".", "."]
+  ],
+  [
+    ["Yes", "UH"],
+    [",", ","],
+    ["I", "PRP"],
+    ["am", "VBP"],
+    ["a", "DT"],
+    ["student", "NN"],
+    [".", "."]
+  ],
+  [
+    ["I", "PRP"],
+    ["like", "VBP"],
+    ["playing", "VBG"],
+    ["guitar", "NN"],
+    ["and", "CC"],
+    ["watching", "VBG"],
+    ["movies", "NNS"],
+    [".", "."]
+  ],
+  [
+    ["Thank", "VB"],
+    ["you", "PRP"],
+    ["and", "CC"],
+    ["Goodbye", "UH"]
+  ]
+]
